@@ -1,0 +1,106 @@
+<!Doctype HTML>
+<html lang="en">
+
+<head>
+
+<title> Allure Aura </title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="aastylesheet.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+<div class="logo"> 
+<a href="AAhome.html">
+<img src="logo.jpg" alt="logo">
+</a>
+</div>
+
+<h1> <b> Allure Aura </b> </h1>
+<h2> <i> Caress Your Inner Diva </i> </h2>
+
+<hr class="aah">
+
+
+<h3> <a href="AAHome.html">Home</a> <a href="AASkin.html">Skin</a> <a href="AAHair.html">Hair</a> <a href="Order.html"> Order </a> </h3>
+<h4 class="order"> <b> Order Form </b> </h4>
+
+<form class="order">
+
+<label for="name"> <b>Your Name:</b> </label><br>
+<input type="text" id="name" name="name" size="20" required="required" minlength="3" maxlength="20"> <br>
+
+<label for="DOB"> <b>Date of birth:</b> </label><br>
+<input type="date" id="DOB" name="DOB" required="required"><br>
+
+<label for="email"> <b>Email address:</b> </label> <br>
+<input type="email" id="email" name="Email" required="required" size="20"><br>
+
+<label for="phonenumber"> <b>Phone number:</b> </label> <br>
+<input type="tel" id="phonenumber" name="phone number" pattern="^[0-9]{10}$" maxlength="10" required="required"> <br>
+
+<label for="address"> <b>Address:</b> </label><br>
+<textarea id="address" name="address" rows="4" cols="40" maxlength="200"> </textarea><br>
+
+<p> <b>Product</b> </p><br>
+
+<select multiple name = "Product" id="product">
+<option value="VitaminC"> Vitamin C </option>
+<option value="Hyaluronicacidserum"> Hyaluronic acid serum </option>
+<option value="Retinol"> Retinol </option>
+<option value="Niacinamideserum"> Niacinamideserum </option>
+<option value="Shampoo"> Shampoo </option>
+<option value="conditioner"> Conditioner </option>
+<option value="hairserum"> Hair serum </option>
+<option value="hairoil"> Hair oil </option>
+
+</select><br>
+
+<p> <b> Order Confirmation: </b> </p>
+
+<input type="radio" id="Email" name="Order Confirmation" value="Email">
+<label for="Email"> Email </label>
+
+<input type="radio" id="SMS" name="Order Confirmation" value="SMS">
+<label for="SMS"> SMS </label><br>
+
+<p> <b> Promotion: </b> </p>
+
+<input type="checkbox" id="ReceiveSMS" name="Promotion" value="ReceiveSMS">
+<label for="ReceiveSMS"> Receive SMS </label>
+
+<input type="checkbox" id="ReceiveEmail" name="Promotion" value="ReceiveEmail">
+<label for="ReceiveEmail"> Receive Email </label>
+
+<input type="checkbox" id="Receivecalls" name="Promotion" value="Receivecalls">
+<label for="Receivecalls"> Receive calls </label>
+
+<input type="checkbox" id="ReceiveNewsletter" name="Promotion" value="ReceiveNewsletter">
+<label for="ReceiveNewsletter"> Receive Newsletter </label><br>
+
+<div class="feedback">
+<label for="feedback"> <b> Feedback </b> </label><br>
+<textarea id="feedback" name="feedback" rows="4" cols="40"> </textarea> <br>
+</div>
+
+<div class="tc">
+<input type="checkbox" id="agreetc" name="agreetc">
+<label for="agreetc"> <b>I agree to the Terms and Conditions</b></label>
+</div>
+
+<div class="submit">
+<input type="image" src="Submit.jpeg" alt="Submit">
+</div>
+
+</form>
+
+<hr class="aaorder"> 
+
+<p> Copyright &copy; 2025 Allure Aura, All Rights Reserved - Privacy Policy </p>
+
+</body>
+</html>

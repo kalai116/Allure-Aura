@@ -1,0 +1,256 @@
+/*Styling all the HTML pages in one CSS */
+
+body
+{
+	background-color: pink;
+}
+.logo img
+{
+	border-radius: 50%;
+	float: left;
+	height: 60px;
+	margin: 10px;
+	width: 5%;
+}
+h1
+{
+    margin-left: 42%;
+    margin-right: auto;
+    font-family: 'Playwrite IT Moderna', serif;
+}
+h2 
+{
+	margin-left: 39%;
+    margin-right: auto;
+	font-family: 'Playwrite IT Moderna', serif;
+}
+hr.aah
+{
+	border-bottom: 5px solid purple;
+}
+h3
+{
+	text-align: center;
+    word-spacing: 100px;
+}
+h4
+{
+	font-family: "Dancing Script", serif;
+	font-size: 30px;
+	text-align: center;
+}
+h5
+{
+	font-family: "Dancing Script", serif;
+	font-size: 20px;
+	text-align: center;
+}
+		
+/*styling for skin.html */
+
+.skinproducts
+{
+	display:flex;
+	justify-content: center;
+	margin-bottom: 10%;
+}
+.skin img
+{
+	width:250px;
+	height:350px;  
+    object-fit: cover;
+	border-radius: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+} 
+.skinproducts :hover
+{
+	background-color: #9FE2BF;
+}
+
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+  text-align: center;
+  width: 360px;
+}
+figcaption 
+{
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+
+}
+.skin1 img
+{
+	width:250px;
+	height:350px;  
+    object-fit: cover;
+    border-radius: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+} 
+.skin2 img
+{
+	width:250px;
+	height:350px;  
+    object-fit: cover;
+    border-radius: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+} 
+.skin3 img
+{
+	width:250px;
+	height:350px;  
+    object-fit: cover;
+    border-radius: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+} 
+
+/* Styling for hair.html*/
+
+
+.hairproducts
+{
+	display:flex;
+	justify-content: center;
+	margin-bottom: 10%;
+}
+.hairproducts :hover
+{
+	background-color: #9FE2BF;
+}
+.hair img
+{
+	width:250px;
+	height:350px;  
+    object-fit: cover;
+    border-radius: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+figure 
+{
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+  text-align: center;
+  width: 360px;
+}
+figcaption 
+{
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+.hair1 img
+{
+	width:250px;
+	height:350px;  
+    object-fit: cover;
+    border-radius: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+} 
+.hair2 img
+{
+	width:250px;
+	height:350px;  
+    object-fit: cover;
+    border-radius: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+} 
+.hair3 img
+{
+	width:250px;
+	height:350px;  
+    object-fit: cover;
+    border-radius: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+} 
+
+.makeup img
+{
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+	width:50%;
+}
+table,tr,td
+{
+	border: solid black;
+	}
+td
+{
+	text-align: center;
+	}
+	
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* horizontal rule for homepage,sking and hair respectively */
+
+hr.hr
+{
+	border-bottom: 5px solid purple;
+}
+hr.aaskin
+{
+	border-bottom: 5px solid purple;
+}
+hr.aahair
+{
+	border-bottom: 5px solid purple;
+}
+p
+{
+text-align: center;
+}
+
+/* styling for Order page */
+
+h4.order
+{
+	text-align: center;
+	font-family: "Outfit", serif;
+	font-size: 30px;
+}
+form.order
+{
+	text-align: center;
+	justify-content: space-between; 
+	margin: 2px;
+}
+.feedback
+{
+	margin-top: 10px;
+}
+.tc
+{
+	margin-top: 15px;
+}
+.order input[type="image"]
+{
+	border-radius: 50%;
+	text-align: center;
+	height: 100px;
+	margin: 30px;
+	margin-bottom: 50px;
+	width: 10%;
+}
+hr.aaorder
+{
+	border-bottom: 5px solid purple;
+}
